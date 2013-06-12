@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01C14C3A1768473000F092F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C14C391768473000F092F7 /* UIKit.framework */; };
+		01C14C3C1768473000F092F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C14C3B1768473000F092F7 /* Foundation.framework */; };
+		01C14C3E1768473000F092F7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C14C3D1768473000F092F7 /* CoreGraphics.framework */; };
+		01C14C441768473000F092F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01C14C421768473000F092F7 /* InfoPlist.strings */; };
+		01C14C461768473000F092F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C14C451768473000F092F7 /* main.m */; };
+		01C14C4A1768473000F092F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C14C491768473000F092F7 /* AppDelegate.m */; };
+		01C14C4C1768473000F092F7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 01C14C4B1768473000F092F7 /* Default.png */; };
+		01C14C4E1768473000F092F7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01C14C4D1768473000F092F7 /* Default@2x.png */; };
+		01C14C501768473000F092F7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01C14C4F1768473000F092F7 /* Default-568h@2x.png */; };
+		01C14C531768473100F092F7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01C14C511768473100F092F7 /* MainStoryboard.storyboard */; };
+		01C14C561768473100F092F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C14C551768473100F092F7 /* ViewController.m */; };
+		01C14C5E1768473100F092F7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C14C5D1768473100F092F7 /* SenTestingKit.framework */; };
+		01C14C5F1768473100F092F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C14C391768473000F092F7 /* UIKit.framework */; };
+		01C14C601768473100F092F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C14C3B1768473000F092F7 /* Foundation.framework */; };
+		01C14C681768473100F092F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01C14C661768473100F092F7 /* InfoPlist.strings */; };
+		01C14C6B1768473100F092F7 /* PushModalTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C14C6A1768473100F092F7 /* PushModalTestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01C14C611768473100F092F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01C14C2E1768473000F092F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01C14C351768473000F092F7;
+			remoteInfo = PushModalTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01C14C361768473000F092F7 /* PushModalTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushModalTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01C14C391768473000F092F7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		01C14C3B1768473000F092F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		01C14C3D1768473000F092F7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		01C14C411768473000F092F7 /* PushModalTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PushModalTest-Info.plist"; sourceTree = "<group>"; };
+		01C14C431768473000F092F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		01C14C451768473000F092F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01C14C471768473000F092F7 /* PushModalTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PushModalTest-Prefix.pch"; sourceTree = "<group>"; };
+		01C14C481768473000F092F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		01C14C491768473000F092F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		01C14C4B1768473000F092F7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		01C14C4D1768473000F092F7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		01C14C4F1768473000F092F7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		01C14C521768473100F092F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		01C14C541768473100F092F7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		01C14C551768473100F092F7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		01C14C5C1768473100F092F7 /* PushModalTestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PushModalTestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01C14C5D1768473100F092F7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		01C14C651768473100F092F7 /* PushModalTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PushModalTestTests-Info.plist"; sourceTree = "<group>"; };
+		01C14C671768473100F092F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		01C14C691768473100F092F7 /* PushModalTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushModalTestTests.h; sourceTree = "<group>"; };
+		01C14C6A1768473100F092F7 /* PushModalTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushModalTestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01C14C331768473000F092F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C14C3A1768473000F092F7 /* UIKit.framework in Frameworks */,
+				01C14C3C1768473000F092F7 /* Foundation.framework in Frameworks */,
+				01C14C3E1768473000F092F7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01C14C581768473100F092F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C14C5E1768473100F092F7 /* SenTestingKit.framework in Frameworks */,
+				01C14C5F1768473100F092F7 /* UIKit.framework in Frameworks */,
+				01C14C601768473100F092F7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01C14C2D1768473000F092F7 = {
+			isa = PBXGroup;
+			children = (
+				01C14C3F1768473000F092F7 /* PushModalTest */,
+				01C14C631768473100F092F7 /* PushModalTestTests */,
+				01C14C381768473000F092F7 /* Frameworks */,
+				01C14C371768473000F092F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01C14C371768473000F092F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01C14C361768473000F092F7 /* PushModalTest.app */,
+				01C14C5C1768473100F092F7 /* PushModalTestTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01C14C381768473000F092F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01C14C391768473000F092F7 /* UIKit.framework */,
+				01C14C3B1768473000F092F7 /* Foundation.framework */,
+				01C14C3D1768473000F092F7 /* CoreGraphics.framework */,
+				01C14C5D1768473100F092F7 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		01C14C3F1768473000F092F7 /* PushModalTest */ = {
+			isa = PBXGroup;
+			children = (
+				01C14C481768473000F092F7 /* AppDelegate.h */,
+				01C14C491768473000F092F7 /* AppDelegate.m */,
+				01C14C511768473100F092F7 /* MainStoryboard.storyboard */,
+				01C14C541768473100F092F7 /* ViewController.h */,
+				01C14C551768473100F092F7 /* ViewController.m */,
+				01C14C401768473000F092F7 /* Supporting Files */,
+			);
+			path = PushModalTest;
+			sourceTree = "<group>";
+		};
+		01C14C401768473000F092F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01C14C411768473000F092F7 /* PushModalTest-Info.plist */,
+				01C14C421768473000F092F7 /* InfoPlist.strings */,
+				01C14C451768473000F092F7 /* main.m */,
+				01C14C471768473000F092F7 /* PushModalTest-Prefix.pch */,
+				01C14C4B1768473000F092F7 /* Default.png */,
+				01C14C4D1768473000F092F7 /* Default@2x.png */,
+				01C14C4F1768473000F092F7 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01C14C631768473100F092F7 /* PushModalTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				01C14C691768473100F092F7 /* PushModalTestTests.h */,
+				01C14C6A1768473100F092F7 /* PushModalTestTests.m */,
+				01C14C641768473100F092F7 /* Supporting Files */,
+			);
+			path = PushModalTestTests;
+			sourceTree = "<group>";
+		};
+		01C14C641768473100F092F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01C14C651768473100F092F7 /* PushModalTestTests-Info.plist */,
+				01C14C661768473100F092F7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01C14C351768473000F092F7 /* PushModalTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01C14C6E1768473100F092F7 /* Build configuration list for PBXNativeTarget "PushModalTest" */;
+			buildPhases = (
+				01C14C321768473000F092F7 /* Sources */,
+				01C14C331768473000F092F7 /* Frameworks */,
+				01C14C341768473000F092F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PushModalTest;
+			productName = PushModalTest;
+			productReference = 01C14C361768473000F092F7 /* PushModalTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01C14C5B1768473100F092F7 /* PushModalTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01C14C711768473100F092F7 /* Build configuration list for PBXNativeTarget "PushModalTestTests" */;
+			buildPhases = (
+				01C14C571768473100F092F7 /* Sources */,
+				01C14C581768473100F092F7 /* Frameworks */,
+				01C14C591768473100F092F7 /* Resources */,
+				01C14C5A1768473100F092F7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01C14C621768473100F092F7 /* PBXTargetDependency */,
+			);
+			name = PushModalTestTests;
+			productName = PushModalTestTests;
+			productReference = 01C14C5C1768473100F092F7 /* PushModalTestTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01C14C2E1768473000F092F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "西崎悠馬";
+			};
+			buildConfigurationList = 01C14C311768473000F092F7 /* Build configuration list for PBXProject "PushModalTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 01C14C2D1768473000F092F7;
+			productRefGroup = 01C14C371768473000F092F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01C14C351768473000F092F7 /* PushModalTest */,
+				01C14C5B1768473100F092F7 /* PushModalTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01C14C341768473000F092F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C14C441768473000F092F7 /* InfoPlist.strings in Resources */,
+				01C14C4C1768473000F092F7 /* Default.png in Resources */,
+				01C14C4E1768473000F092F7 /* Default@2x.png in Resources */,
+				01C14C501768473000F092F7 /* Default-568h@2x.png in Resources */,
+				01C14C531768473100F092F7 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01C14C591768473100F092F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C14C681768473100F092F7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01C14C5A1768473100F092F7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01C14C321768473000F092F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C14C461768473000F092F7 /* main.m in Sources */,
+				01C14C4A1768473000F092F7 /* AppDelegate.m in Sources */,
+				01C14C561768473100F092F7 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01C14C571768473100F092F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C14C6B1768473100F092F7 /* PushModalTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01C14C621768473100F092F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01C14C351768473000F092F7 /* PushModalTest */;
+			targetProxy = 01C14C611768473100F092F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01C14C421768473000F092F7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01C14C431768473000F092F7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		01C14C511768473100F092F7 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01C14C521768473100F092F7 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		01C14C661768473100F092F7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01C14C671768473100F092F7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01C14C6C1768473100F092F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		01C14C6D1768473100F092F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01C14C6F1768473100F092F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PushModalTest/PushModalTest-Prefix.pch";
+				INFOPLIST_FILE = "PushModalTest/PushModalTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		01C14C701768473100F092F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PushModalTest/PushModalTest-Prefix.pch";
+				INFOPLIST_FILE = "PushModalTest/PushModalTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		01C14C721768473100F092F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PushModalTest.app/PushModalTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PushModalTest/PushModalTest-Prefix.pch";
+				INFOPLIST_FILE = "PushModalTestTests/PushModalTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		01C14C731768473100F092F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PushModalTest.app/PushModalTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PushModalTest/PushModalTest-Prefix.pch";
+				INFOPLIST_FILE = "PushModalTestTests/PushModalTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01C14C311768473000F092F7 /* Build configuration list for PBXProject "PushModalTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01C14C6C1768473100F092F7 /* Debug */,
+				01C14C6D1768473100F092F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01C14C6E1768473100F092F7 /* Build configuration list for PBXNativeTarget "PushModalTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01C14C6F1768473100F092F7 /* Debug */,
+				01C14C701768473100F092F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		01C14C711768473100F092F7 /* Build configuration list for PBXNativeTarget "PushModalTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01C14C721768473100F092F7 /* Debug */,
+				01C14C731768473100F092F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01C14C2E1768473000F092F7 /* Project object */;
+}
