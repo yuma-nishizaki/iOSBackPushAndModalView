@@ -23,6 +23,11 @@
 		01C14C601768473100F092F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C14C3B1768473000F092F7 /* Foundation.framework */; };
 		01C14C681768473100F092F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01C14C661768473100F092F7 /* InfoPlist.strings */; };
 		01C14C6B1768473100F092F7 /* PushModalTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C14C6A1768473100F092F7 /* PushModalTestTests.m */; };
+		01C14C76176848AD00F092F7 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C14C75176848AD00F092F7 /* FourthViewController.m */; };
+		01C14C7917684B4700F092F7 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C14C7817684B4700F092F7 /* SecondViewController.m */; };
+		01C14C7C17684E6600F092F7 /* MyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C14C7B17684E6600F092F7 /* MyNavigationController.m */; };
+		01C14C7F17684E8E00F092F7 /* TopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C14C7E17684E8E00F092F7 /* TopViewController.m */; };
+		01C14C8217684EA500F092F7 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C14C8117684EA500F092F7 /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +63,16 @@
 		01C14C671768473100F092F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		01C14C691768473100F092F7 /* PushModalTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushModalTestTests.h; sourceTree = "<group>"; };
 		01C14C6A1768473100F092F7 /* PushModalTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushModalTestTests.m; sourceTree = "<group>"; };
+		01C14C74176848AD00F092F7 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		01C14C75176848AD00F092F7 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		01C14C7717684B4700F092F7 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		01C14C7817684B4700F092F7 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		01C14C7A17684E6600F092F7 /* MyNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavigationController.h; sourceTree = "<group>"; };
+		01C14C7B17684E6600F092F7 /* MyNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavigationController.m; sourceTree = "<group>"; };
+		01C14C7D17684E8E00F092F7 /* TopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopViewController.h; sourceTree = "<group>"; };
+		01C14C7E17684E8E00F092F7 /* TopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopViewController.m; sourceTree = "<group>"; };
+		01C14C8017684EA500F092F7 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		01C14C8117684EA500F092F7 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +135,16 @@
 				01C14C481768473000F092F7 /* AppDelegate.h */,
 				01C14C491768473000F092F7 /* AppDelegate.m */,
 				01C14C511768473100F092F7 /* MainStoryboard.storyboard */,
+				01C14C8017684EA500F092F7 /* ThirdViewController.h */,
+				01C14C8117684EA500F092F7 /* ThirdViewController.m */,
+				01C14C7D17684E8E00F092F7 /* TopViewController.h */,
+				01C14C7E17684E8E00F092F7 /* TopViewController.m */,
+				01C14C7A17684E6600F092F7 /* MyNavigationController.h */,
+				01C14C7B17684E6600F092F7 /* MyNavigationController.m */,
+				01C14C7717684B4700F092F7 /* SecondViewController.h */,
+				01C14C7817684B4700F092F7 /* SecondViewController.m */,
+				01C14C74176848AD00F092F7 /* FourthViewController.h */,
+				01C14C75176848AD00F092F7 /* FourthViewController.m */,
 				01C14C541768473100F092F7 /* ViewController.h */,
 				01C14C551768473100F092F7 /* ViewController.m */,
 				01C14C401768473000F092F7 /* Supporting Files */,
@@ -273,6 +298,11 @@
 				01C14C461768473000F092F7 /* main.m in Sources */,
 				01C14C4A1768473000F092F7 /* AppDelegate.m in Sources */,
 				01C14C561768473100F092F7 /* ViewController.m in Sources */,
+				01C14C76176848AD00F092F7 /* FourthViewController.m in Sources */,
+				01C14C7917684B4700F092F7 /* SecondViewController.m in Sources */,
+				01C14C7C17684E6600F092F7 /* MyNavigationController.m in Sources */,
+				01C14C7F17684E8E00F092F7 /* TopViewController.m in Sources */,
+				01C14C8217684EA500F092F7 /* ThirdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
